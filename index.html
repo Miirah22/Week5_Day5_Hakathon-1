@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AGENCE IMMOBILIERE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" id="navbar-brand" href="index.html"><img src="photo & logo/estate logo.png" width="80" alt=logo /><b class="societyName">AMI LUXE</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#apropos">APROPOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACT</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SERVICE OFFERT
+                </a>
+                <ul class="dropdown-menu" id="dropdown" selection>
+                  <li><a class="dropdown-item" href="#">Achat</a></li>
+                  <li><a class="dropdown-item" href="#">Vendre</a></li>
+                  <li><a class="dropdown-item" href="#">Louer</a></li>
+                </ul>
+            </ul>
+          </div>
+        </div> 
+      </div>
+    </nav>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="photo & logo/background2.jfif" width="100%" height="50%" alt="Dream House">
+        </div>
+           <div class="carousel-caption">
+              <h1>Trouvez le bien de vos rêves</h1><br><br>
+              
+              <!--Dropdown Menu-->
+              <form class="form-inline" action="action_page.php">
+                <div class="col-3">
+                  <select id="localité" name="localié">
+                    <option value="localité">Localité</option>
+                    <option value="Bain Boeuf">Bain Boeuf</option>
+                    <option value="Balaclava">Balaclava</option>
+                    <option value="Grand-Baie">Grand-Baie</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <select id="Type" name="Type">
+                    <option value="type">Type</option>
+                    <option value="achat local">Achat local</option>
+                    <option value="achat commerce">Achat Commerce</option>
+                    <option value="achat terrain">Achat Terrain</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <select id="Status" name="Status">
+                    <option value="louer">A Louer</option>
+                    <option value="vendre">A Vendre</option>
+                    <option value="vendu">Vendu</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                  <button type="submit" id="search"><i class="fa fa-search" id="iconfa">Recherche</i></button>
+                </div>
+              </form>
+          </div>
+       </div>
+    <div class="container">
+        <div class="w-100 p-5 mb-5">
+         <h6 class="text-center pt-5 mt-10">VOTRE PROPRIÉTÉ DE LUXE À L'ÎLE MAURICE</h6>
+           <h1 class="text-center">VILLAS ET APPARTEMENTS À VENDRE</h1>
+           <p class="text-center">Que ce soit pour acheter, vendre à l'île Maurice, nous élargissons votre horizon avec des propriétés uniques.</p>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <!--Card 1-->
+                <div class="card" style="width: 18rem;">
+                    <img src="photo & logo/calodyne villa.jpg " class="card-img-top" alt="Calodyne Villa">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="#">Belle villa à louer au bord d'un barachois à Calodyne</a></h5>
+                      <p class="card-text">LOCATION LONG TERME Calodyne – Villa dans une résidence pieds...
+                        <li>Chambres - 3</li>
+                        <li>Salles de bain - 2</li><br><br>
+                        <h3>2,021€ Par Mois</h3>
+                      </p>
+                      <a href="#" class="btn btn-primary">Plus Disponible</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--Card 2-->
+                <div class="card" style="width: 18rem;">
+                    <img src="photo & logo/penthouse.jpg " class="card-img-top" alt="penthouse">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="#">Sublime penthouse RES entre terre et mer</a></h5>
+                      <p class="card-text">Penthouse accessible aux étrangers - Tamarin - Réf :
+                        <li>Chambres - 4</li>
+                        <li>Salles de bain - 4</li>
+                        <li >Surface - 500 m<sup>2</sup></li><br><br><br>
+                        <h3>2,957,445€</h3>
+                      </p>
+                      <a href="#" class="btn btn-primary">A vendre</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <!--Card 3-->
+                <div class="card" style="width: 18rem;">
+                    <img src="photo & logo/balinese-villa_P.A.Cannonier.jpg " class="card-img-top" alt="balinese-villa">
+                    <div class="card-body">
+                      <h5 class="card-title"><a href="#">Somptueuse propriété à la Pointe aux Canonniers</a></h5>
+                      <p class="card-text">LOCATION LONG TERME Pointe aux Canonniers – Somptueuse propriété de...
+                        <li>Chambres - 4</li>
+                        <li>Salles de bain - 3</li>
+                        <li>Surface - 320 m<sup>2</sup></li><br><br>
+                        <h3>8,680€ Par Mois</h3>
+                      </p>
+                      <a href="#" class="btn btn-primary">Plus Disponible</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h1 id="apropos" class="fs-1 p-5 mt-5 text-center">APROPOS</h1>
+        <div class="apropos-section">
+          
+          <p>A propos de qui nous sommes et de ce que nous faisons</p>
+          <p>Depuis plus de 20 ans AMI LUXE accompagne des milliers de propriétaires qui souhaitent investir dans l'immobilier à la Réunion, Maurice et Madagascar.
+        
+            Contactez-nous sans plus attendre, pour recevoir gratuitement et sans aucun engagement des offres et des conseils d'investissements immobilier totalement personnalisés et actualisés.
+            
+            Grâce à notre réseau de 27 agences harmonieusement réparties sur la Réunion, Maurice et Madagascar, nous pouvons vous proposer les meilleurs investissements en fonction de vos objectifs et de votre profil.
+            
+            5 directeurs, 3 directeurs adjoints, 80 agents commerciaux, 27 secrétaires gestionnaires.</p>
+        </div>
+        <div class="container2">
+          <h2 style="text-align:center">Notre Équipe de Conseil</h2>
+            <div class="row">
+              <div class="col">
+                <div class="card2 p-5 mt-5 mb-5 ">
+                  <img src="photo & logo/Markeing Director.jpg" class="card2-img-top" alt="Jane" >
+                  <div class="card-body2"><br>
+                   <h2>Jane Doe</h2>
+                    <h5 class="card-title">Directrice commerciaux</h5><br>
+                    <p class="card-text">Belle femme d’affaires confiante dans un bureau moderne, 
+                     souriante tenant une tablette numérique dans le bureau.Qui ne veut pas l'approcher pour parler d'affaire.<br><br>
+                     <a href="mailto: jane@hotmail.com" class="text-gray text-decoration-none">jane@hotmail.com</a></p>
+                   </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card2 p-5 mt-5 mb-5">
+                  <img src="photo & logo/PDG.jfif" class="card2-img-top" alt="Mike" >
+                  <div class="card-body2"><br>
+                   <h2>Mike Ross</h2>
+                    <h5 class="card-title">PDG</h5><br>
+                    <p class="card-text">Les secrets de productivité du PDG,c'est celui qui dirige plusieurs entreprises<br><br><br><br>
+                    <a href="mailto: mike@hotmail.com" class="text-gray text-decoration-none">mike@hotmail.com</a></p>
+                   </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card2 p-5 mt-5 mb-5">
+                  <img src="photo & logo/architect.jfif" class="card2-img-top" alt="Joe" >
+                  <div class="card-body2"><br>
+                   <h2>John Doe</h2>
+                    <h5 class="card-title">Architect</h5><br>
+                    <p class="card-text">Le but ultime de l'architecte...est de créer un paradis.
+                        Chaque maison,chaque produit d'architecture..
+                        devrait être un fruit de nos efforts pour construire un paradis terrestre pour tous.<br><br>
+                        <a href="mailto: johnDoe@hotmail.com" class="text-gray text-decoration-none">johnDoe@hotmail.com</a></p>
+                   </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card2 p-5 mt-5 mb-5">
+                  <img src="photo & logo/Responsable commerce.jfif" class="card2-img-top" alt="Melina Marc" >
+                  <div class="card-body2"><br>
+                   <h2>Melina Marc</h2>
+                    <h5 class="card-title">Responsable d'Attachés Commerciaux</h5><br>
+                    <p class="card-text">Les responsables commerciaux sont souvent d’anciens bons commerciaux 
+                        terrain avec un fort esprit d’équipe. <br><br><br><br>
+                        <a href="mailto: melina@hotmail.com" class="text-gray text-decoration-none">melina@hotmail.com</a></p>
+                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+  <!-- Grid container -->
+  <div class="container p-4 pb-0">
+    <!-- Section: Form -->
+    <section class="form3">
+      <form action="Incrire.html">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Inscrivez-vous à notre newsletter</strong>
+            </p>
+          </div>
+
+          <!--Grid column-->
+          <div class="col-3" id="col-inscrire">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form3" class="form-control" placeholder="Address courriel" required />
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4" id="btn-inscrivez-vous" >
+              Inscrivez-vous
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2023 Copyright:
+    <a class="text-white" href="#">AMI LUXE</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+
+<!-- End of .container -->
+
+            <script src=" https://smtpjs.com/v3/smtp.js"></script>
+            <script src="./script.js"></script>
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+   </body>
+</html> 
+          
+
+
+
+
+            
+    
