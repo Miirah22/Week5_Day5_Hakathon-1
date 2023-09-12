@@ -1,0 +1,402 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background:#bbf1fa ;
+    margin: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+
+.nav-item{
+    margin-left: 35px;
+}
+
+.nav-link:hover{
+    color:#ccc;
+}
+
+.open-button{
+    background: transparent;
+    border:2px solid #fff;
+    padding: 6px 24px;
+    border-radius: 6px;
+    cursor:pointer;
+    margin-right: 20px;
+    background-color:#0C356A;
+    color:#fff;
+}
+.open-button:active{
+    transform:scale(0.98);
+}
+
+.open-button:hover{
+    background-color: #5C5470;
+}
+
+/*.btnLogin-popup{
+    background: transparent;
+    border:2px solid #0C356A;
+    border-radius: 6px;
+    margin-right: 20px;
+    color:#333;
+    padding: 6px 24px;
+    cursor:pointer;
+}
+.btnLogin-popup:active{
+    transform:scale(0.98);
+}
+
+.btnLogin-popup:hover{
+    background-color:#5C5470;
+}*/
+
+
+.dropdown-menu{
+    background:#96B6C5 ;
+    color: gray; 
+    width: 25%;
+}
+li{
+    width: 80%;
+   
+}
+.form-inline{
+    flex-flow:wrap;
+    display: flex;
+}
+
+.form-inline select {   
+    width: 100%;
+    padding:12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: gray;         
+ }
+.form-inline #search {
+    flex-flow: wrap;
+    float: center;
+    width: 100%;
+    padding:12px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: #fff;
+    background: #0C356A;
+    
+}
+  
+.form-inline #search:hover {
+    background-color: #5C5470;
+}
+
+option{
+    background:#96B6C5 ;
+    width: 20px;
+}
+
+h6,h3{
+    color: #EA1179;
+}
+
+.btn{
+    background: #0C356A;
+    padding:12px;
+    width: 150px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color: #fff;  
+}
+.btn:hover{
+    background-color: #5C5470; 
+}
+
+a{
+    color:#0C356A;
+}
+a:hover{
+    color: #5C5470;
+    text-decoration:none;
+}
+
+.card{
+    
+    height: 615px;
+    display: inline-flex;
+    margin: 50px;
+    
+}   
+
+.card-img-top {
+    height: 200px;
+}
+
+.card-title {
+    color: grey;
+}
+
+.apropos-section {
+    padding: 25px;
+    text-align: center;
+    background-color: #45637d;
+    color: white;
+    width: auto;
+}
+.container2{
+    margin-top: 50px;
+    padding:16px; 
+    display: block;
+}
+
+.card2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin:25px;
+    height: 550px;
+    
+}
+.card2-img-top{
+    height: 200px;
+    width:18rem;
+}
+.card-body2{ 
+    padding: 16px;
+    margin-top: 25px;
+}
+
+.contactez-nous{
+    
+    display: block;
+    justify-content: center;
+    padding: 40px 100px;
+    margin-bottom: 200px;
+ 
+}
+
+.contactez-nous .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.contactez-nous .tittle h1{
+    color: #fff;
+    font-weight: 500;
+}
+
+.form2{
+    grid-area: form;
+   
+}
+
+.info{
+    grid-area: info;
+}
+
+.map{
+    grid-area: map;
+}
+
+.contact{
+    padding:40px;
+    box-shadow:0 5px 35px rgba(0,0,0,0.15);
+}
+
+.box{
+    position: relative;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 5fr 4fr;
+    grid-template-areas:
+    "form info"
+    "form map";
+    grid-gap: 20px;
+    margin-top: 20px;
+}
+
+.contact h4{
+    color:#0e3959;
+    font-weight: 500;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+/* form */
+.formBox{
+    position: relative;
+    width: 100%;   
+}
+
+.formBox .row50{
+    display: flex;
+    gap:20px;
+}
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:10px;
+    width:50%;
+}
+
+.formBox .row100 .inputBox{
+    width:100%;
+}
+.inputBox span{
+    color: #18b7ff;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.inputBox input{
+    padding: 10px;
+    font-size:1.1em;
+    outline:none;
+    border:1px solid #333;
+}
+input[type=text], select, textarea{
+    
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+    color:gray;
+  }
+
+/*.inputBox .btn[type="envoyer"]{
+    background: #0C356A;
+    color: #fff;
+    border:1px solid #ccc;;
+    font-size: 1.1em;
+    max-width: 120px;
+    font-weight: 500;
+    text-align: center;
+    cursor:pointer;
+    padding:14px 15px;
+}
+
+
+/* info */
+.info{
+   background: #0e3959; 
+}
+.info h3{
+    color:#fff;
+}
+.info .infoBox div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.info .infoBox div span{
+    min-width:40px;
+    height:40px;
+    color:#fff;
+    background: #18b7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+.info .infoBox div p{
+    color: #fff;
+    font-size: 1.1em;
+}
+.info .infoBox div a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+.soc_med{
+    margin-top: 40px;
+    display: flex;   
+}
+.soc_med li{
+    list-style: none;
+    margin-right: 15px;
+}
+.soc_med li a{
+    color: #fff;
+    font-size: 2em;
+    color: #ccc;
+}
+.soc_med li a:hover{
+    color: #fff;
+}
+.map{
+    padding: 0;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
+#col-inscrire{
+    margin-right: 25px;
+    margin-top: 8px;
+}
+
+.col-auto{
+    margin-top: 6px;
+}
+
+  
+@media screen and (max-width: 991px) {
+    input[type=envoyer],button[type=submit],.col,.col-3,.col-6,
+    .column,.dropdown-item{
+        width: 100%;
+        display: block;
+    }
+    li{
+        width: 80%;
+    }
+
+    .contactez-nous{
+        padding: 20px;
+    }
+    .box{
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+                " form"
+                " info"
+                " map";
+    }
+
+    .map{
+        min-height: 300px;
+    }
+    .formBox .row50{
+        display: flex;
+        gap:0;
+        flex-direction: column;
+    }
+    .inputBox{
+        width: 100%;
+    }
+    .contact{
+        padding: 30px;
+    }
+    .map{
+        min-height: 300px;
+        padding: 0;
+    }
+}
+
